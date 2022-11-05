@@ -141,8 +141,10 @@ body {
   transition: 300ms ease-in-out opacity;
 }
 
-.slider__button:hover {
-  opacity: 0.6;
+@media (min-width: 992px) {
+  .slider__button:hover {
+    opacity: 0.6;
+  }
 }
 
 .slider__icon {

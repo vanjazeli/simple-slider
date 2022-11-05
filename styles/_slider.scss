@@ -68,7 +68,10 @@
     border: none;
     cursor: pointer;
     transition: 300ms ease-in-out opacity;
-    &:hover {
+}
+
+@media(min-width: 992px){
+    .slider__button:hover{
         opacity:0.6;
     }
 }
