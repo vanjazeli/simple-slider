@@ -26,7 +26,7 @@ const pauseSlider = () => {
     animationElements.forEach(animatingElement => {
         animatingElement.style.animationPlayState = 'paused';
     })
-    icon.setAttribute("src", "/assets/svg/play.svg");
+    icon.setAttribute("src", "assets/svg/play.svg");
     paused = true;
 }
 
@@ -34,7 +34,7 @@ const playSlider = () => {
     animationElements.forEach(animatingElement => {
         animatingElement.removeAttribute("style");
     })
-    icon.setAttribute("src", "/assets/svg/pause.svg");
+    icon.setAttribute("src", "assets/svg/pause.svg");
     paused = false;
 }
 
