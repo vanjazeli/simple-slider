@@ -1,5 +1,5 @@
 # Simple Slides
-A cool and fun way to display some slides on your website.
+Play-pause carousel animation example.
 
 # Demo
 You can check out the demo right [here](https://vanjazeli.github.io/simple-slides/).
